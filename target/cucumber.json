@@ -1,0 +1,393 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Calculate the division of two integers",
+        "description": "",
+        "id": "calculate-division-of-two-integers;calculate-the-division-of-two-integers;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 85512339,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": I am on Calculator App",
+            "match": {
+              "location": "CalculatorStepdefs.i_am_on_Calculator_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1505380,
+              "error_message": "java.lang.NullPointerException\n\tat calculator.division_calculator.CalculatorStepdefs.i_perform_division_of_integers_Dividend_on_Divisor(CalculatorStepdefs.java:37)\n\tat ✽.When :  I perform division of integers Dividend1 on Divisor1(calculator.feature:9)\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": ":  I perform division of integers Dividend1 on Divisor1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 42
+                },
+                {
+                  "val": "1",
+                  "offset": 54
+                }
+              ],
+              "location": "CalculatorStepdefs.i_perform_division_of_integers_Dividend_on_Divisor(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": ":  I get the respective Quotient1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 32
+                }
+              ],
+              "location": "CalculatorStepdefs.i_get_the_respective_Quotient(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@now"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Calculate the division of two integers",
+        "description": "",
+        "id": "calculate-division-of-two-integers;calculate-the-division-of-two-integers;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 71822,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": I am on Calculator App",
+            "match": {
+              "location": "CalculatorStepdefs.i_am_on_Calculator_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 361930,
+              "error_message": "java.lang.NullPointerException\n\tat calculator.division_calculator.CalculatorStepdefs.i_perform_division_of_integers_Dividend_on_Divisor(CalculatorStepdefs.java:37)\n\tat ✽.When :  I perform division of integers Dividend2 on Divisor2(calculator.feature:9)\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": ":  I perform division of integers Dividend2 on Divisor2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 42
+                },
+                {
+                  "val": "2",
+                  "offset": 54
+                }
+              ],
+              "location": "CalculatorStepdefs.i_perform_division_of_integers_Dividend_on_Divisor(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": ":  I get the respective Quotient2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 32
+                }
+              ],
+              "location": "CalculatorStepdefs.i_get_the_respective_Quotient(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@now"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Calculate the division of two integers",
+        "description": "",
+        "id": "calculate-division-of-two-integers;calculate-the-division-of-two-integers;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 97656,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": I am on Calculator App",
+            "match": {
+              "location": "CalculatorStepdefs.i_am_on_Calculator_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 255948,
+              "error_message": "java.lang.NullPointerException\n\tat calculator.division_calculator.CalculatorStepdefs.i_perform_division_of_integers_Dividend_on_Divisor(CalculatorStepdefs.java:37)\n\tat ✽.When :  I perform division of integers Dividend3 on Divisor3(calculator.feature:9)\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": ":  I perform division of integers Dividend3 on Divisor3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 42
+                },
+                {
+                  "val": "3",
+                  "offset": 54
+                }
+              ],
+              "location": "CalculatorStepdefs.i_perform_division_of_integers_Dividend_on_Divisor(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": ":  I get the respective Quotient3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 32
+                }
+              ],
+              "location": "CalculatorStepdefs.i_get_the_respective_Quotient(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@now"
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Calculate the division of two integers",
+        "description": "",
+        "id": "calculate-division-of-two-integers;calculate-the-division-of-two-integers;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 70221,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": I am on Calculator App",
+            "match": {
+              "location": "CalculatorStepdefs.i_am_on_Calculator_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 238857,
+              "error_message": "java.lang.NullPointerException\n\tat calculator.division_calculator.CalculatorStepdefs.i_perform_division_of_integers_Dividend_on_Divisor(CalculatorStepdefs.java:37)\n\tat ✽.When :  I perform division of integers Dividend4 on Divisor4(calculator.feature:9)\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": ":  I perform division of integers Dividend4 on Divisor4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 42
+                },
+                {
+                  "val": "4",
+                  "offset": 54
+                }
+              ],
+              "location": "CalculatorStepdefs.i_perform_division_of_integers_Dividend_on_Divisor(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": ":  I get the respective Quotient4",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 32
+                }
+              ],
+              "location": "CalculatorStepdefs.i_get_the_respective_Quotient(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@now"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Calculate the division of two integers",
+        "description": "",
+        "id": "calculate-division-of-two-integers;calculate-the-division-of-two-integers;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 78681,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": ": I am on Calculator App",
+            "match": {
+              "location": "CalculatorStepdefs.i_am_on_Calculator_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 267991,
+              "error_message": "java.lang.NullPointerException\n\tat calculator.division_calculator.CalculatorStepdefs.i_perform_division_of_integers_Dividend_on_Divisor(CalculatorStepdefs.java:37)\n\tat ✽.When :  I perform division of integers Dividend5 on Divisor5(calculator.feature:9)\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": ":  I perform division of integers Dividend5 on Divisor5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 42
+                },
+                {
+                  "val": "5",
+                  "offset": 54
+                }
+              ],
+              "location": "CalculatorStepdefs.i_perform_division_of_integers_Dividend_on_Divisor(int,int)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": ":  I get the respective Quotient5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 32
+                }
+              ],
+              "location": "CalculatorStepdefs.i_get_the_respective_Quotient(int)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@now"
+          }
+        ]
+      }
+    ],
+    "name": "Calculate division of two integers",
+    "description": "As a User\nI want to perform division operation\nSo that I can get the correct outcome",
+    "id": "calculate-division-of-two-integers",
+    "keyword": "Feature",
+    "uri": "calculator.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@now"
+      }
+    ]
+  }
+]
